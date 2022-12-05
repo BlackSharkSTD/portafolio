@@ -9,11 +9,11 @@ import PortfolioPage from '../pages/PortfolioPage';
 export default function RoutesPage() {
   return (
     <Routes>
-        <Route exact path='/' element={HomePage} />
-        <Route path='/about' element={AboutPage} />
-        <Route path='/contact' element={ContactPage} />
-        <Route path='/portfolio' element={PortfolioPage} />
-        <Route exact path='*' element={ErrorPage} />
+        <Route exact path='/' element={<HomePage/>} />
+        <Route path='/about' element={<AboutPage/>} />
+        <Route path='/contact' element={<ContactPage/>} />
+        <Route path='/portfolio' element={<PortfolioPage/>} />
+        <Route exact path='*' element={<ErrorPage />} />
     </Routes>
   )
 }

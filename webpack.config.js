@@ -61,6 +61,7 @@ module.exports = {
       template: "./public/index.html",
       favicon: "./public/favicon.ico",
       filename: "index.html",
+      manifest: "./public/manifest.json",
     }),
     new MiniCssExtractPlugin({
       filename: "assets/[name].css",
