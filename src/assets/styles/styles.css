@@ -12,3 +12,34 @@ body{
 section{
     margin: 5px 20px;
 }
+
+::-webkit-scrollbar {
+    width: 9px;
+    border-radius: 5px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #111111;
+}
+   
+::-webkit-scrollbar-thumb {
+    background-color: #dfdfdf;
+    background-clip: content-box;
+    border-radius: 5px; 
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background-color: #FF9900;
+}
+
+::-moz-selection {
+    color: #fff;
+    background: #FF9900;
+    border-radius: 5px;
+}
+  
+::selection {
+    color: #fff;
+    background: #FF9900;
+    border-radius: 5px
+}

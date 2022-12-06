@@ -19,16 +19,16 @@ export default function Navbar() {
         </Link>
         <ul>
             <Link to={"/"}>
-                <li><a>Inicio</a></li>
+                <li>Inicio</li>
             </Link>
             <Link to={"/about"}>
-                <li><a>Acerca</a></li>
+                <li>Acerca</li>
             </Link>
             <Link to={"/portfolio"}>
-                <li><a>Portafolio</a></li>
+                <li>Portafolio</li>
             </Link>
             <Link to={"/contact"}>
-                <li><a>Contacto</a></li>
+                <li>Contacto</li>
             </Link>
         </ul>
     </nav>
