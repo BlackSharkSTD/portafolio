@@ -177,4 +177,34 @@ li:hover{
 .spacing100p{ display: block; height: 100%; }
 .spacing-auto{ display: block; height: auto; }
 
-/*  */
+/* ProgressBar */
+.progress-bar{
+    border: 1px solid rgb(62, 62, 62);
+    padding: 2px;
+    border-radius: 100px;
+    width: 100%;
+    height: 10px;
+}
+
+.pb-twitter{
+    background-color: #03A9F4;
+    border-radius: 100px;
+    box-shadow: 1px 1px #03a9f4;
+    height: 100%;
+    width: 80%;
+    animation-name: pbTwitter;
+    animation-duration: 1s;
+}
+
+.pb-dev{
+    background-color: #00e59b;
+    border-radius: 100px;
+    height: 100%;
+    width: 50%;
+    animation-name: pbDevian;
+    animation-duration: 1s;
+}
+
+@keyframes pbTwitter {0% {width: 0%;} 100% {width: 80%;}}
+@keyframes pbDevian {0% {width: 0%;} 100% {width: 50%;}}
+
