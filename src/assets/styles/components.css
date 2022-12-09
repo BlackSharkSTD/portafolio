@@ -192,9 +192,20 @@ li:hover{
     display: inline-table;
 }
 
-.progress p{
-    color: #636363;
-    font-size: 10px;
+.progress-bar{ width: 100%; }
+
+.progress-bar p{
+    color: #7d7d7d;
+    font-size: 11px;
+    text-align: end;
+    padding-bottom: 4px;
+}
+
+.progress-bar label{
+    color: #7d7d7d;
+    font-size: 12px;
+    position: absolute;
+    padding-left: 4px;
 }
 
 .barr{
@@ -203,16 +214,33 @@ li:hover{
     height: 100%;
     animation-name: lineDev;
     animation-duration: 2s;
-    display: table-cell;
 }
 
 @keyframes lineDev {0% {width: 0%;} 100% {width: max(100);}}
 
-/*Cards*/
+/*Icons*/
+.icon-twitter{ color: #03a9f4; font-size: 20px; }
+.icon-js{ color: #F7DE1F; font-size: 20px; }
+.icon-html{ color: #FF5722; font-size: 20px; }
+.icon-css{ color: #2196F3; font-size: 20px; }
+.icon-node{ color: #82C000; font-size: 20px; }
+.icon-react{ color: #61DAFB; font-size: 20px; }
 
+.cart{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.divicon{
+    margin-right: 5px;
+}
+
+/*Cards*/
 .card{
-    background: linear-gradient(#333333, #2c2c2c);
-    box-shadow: 0px 3px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(rgba(51, 51, 51, 0.4), rgba(44, 44, 44, 0.4));
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     padding: 15px;
     width: auto;
