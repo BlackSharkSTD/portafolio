@@ -9,7 +9,7 @@ export default function HomePage() {
         <Navbar />
       </header>
       <section>
-        <h1>hola</h1>
+        <p className="title3">Hola</p>
       </section>
     </>
   )
