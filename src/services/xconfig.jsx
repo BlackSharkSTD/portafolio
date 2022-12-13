@@ -20,6 +20,11 @@ import MSQLSERVER from '../assets/svg/msqlserver.svg';
 import AccessIcon from '../assets/svg/access.svg';
 import SQLiteIcon from '../assets/svg/sqlite.svg';
 import LinuxIcon from '../assets/svg/linux.svg';
+import AppleIcon from '../assets/svg/apple.svg';
+import ArduinoIcon from '../assets/svg/arduino.svg';
+import MaterialUIcon from '../assets/svg/material.svg'; 
+import RaspIcon from '../assets/svg/raspberry.svg';
+import AntDIcon from '../assets/svg/ant-design.svg';
 import MexicoFlag from '../assets/svg/mexico.svg';
 import UsaFlag from '../assets/svg/usa.svg';
 import ItaliaFlag from '../assets/svg/italia.svg';
@@ -43,7 +48,7 @@ export const programs = [
         id: 3,
         title: 'Javascript',
         icon: JSIcon,
-        porcent: '80%',
+        porcent: '85%',
         color: '#F7DE1F',
     },
     {
@@ -71,14 +76,14 @@ export const programs = [
         id: 7,
         title: 'Bash Scripting',
         icon: BashIcon,
-        porcent: '99%',
+        porcent: '79%',
         color: '#F2F2F2',
     },
     {
         id: 8,
         title: 'Batch',
         icon: BatchIcon,
-        porcent: '99.5%',
+        porcent: '90%',
         color: '#B8C9DD',
     },
     {
@@ -95,6 +100,13 @@ export const programs = [
         porcent: '73%',
         color: '#376DB7',
     },
+    {
+        id: 11,
+        title: 'Golang',
+        icon: 'https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg',
+        porcent: '23%',
+        color: '#00ACD7',
+    }
 ];
 
 export const systems = [
@@ -114,18 +126,39 @@ export const systems = [
     },
     {
         id: 3,
+        title: 'Linux/Linux Lite',
+        icon: LinuxIcon,
+        porcent: '80%',
+        color: '#FFC107',
+    },
+    {
+        id: 4,
         title: 'Debian',
         icon: DebianIcon,
         porcent: '80%',
         color: '#E91E63',
     },
     {
-        id: 4,
-        title: 'Linux/Linux Lite',
-        icon: LinuxIcon,
-        porcent: '80%',
-        color: '#FFC107',
+        id: 5,
+        title: 'Kali Linux',
+        icon: 'https://upload.wikimedia.org/wikipedia/commons/2/2b/Kali-dragon-icon.svg',
+        porcent: '50%',
+        color: '#249AFF',
     },
+    {
+        id: 6,
+        title: 'KDE Plasma',
+        icon: 'https://kde.org/stuff/clipart/logo/kde-logo-blue-transparent-source.svg',
+        porcent: '90%',
+        color: '#1D99F3',
+    },
+    {
+        id: 7,
+        title: 'iOS 16',
+        icon: AppleIcon,
+        porcent: '40%',
+        color: '#f5f5f7',
+    }
 ];
 
 export const design = [
@@ -150,12 +183,26 @@ export const design = [
         porcent: '43%',
         color: '#A259FF',
     },
+    {
+        id: 4,
+        title: 'Material UI',
+        icon: MaterialUIcon,
+        porcent: '90%',
+        color: '#00B0FF',
+    },
+    {
+        id: 5,
+        title: 'Ant-Design',
+        icon: AntDIcon,
+        porcent: '67%',
+        color: '#F52231',
+    },
 ];
 
 export const database = [
     {
         id: 1,
-        title: 'Microsoft SQL SERVER',
+        title: 'Microsoft SQL Server',
         icon: MSQLSERVER,
         porcent: '85%',
         color: '#EE352C',
@@ -218,5 +265,22 @@ export const flags = [
         icon: ItaliaFlag,
         porcent: '10%',
         color: '#2196F3',
+    },
+];
+
+export const electronic = [
+    {
+        id: 1,
+        title: 'Arduino',
+        icon: ArduinoIcon,
+        porcent: '80%',
+        color: '#008184',
+    },
+    {
+        id: 2,
+        title: 'Raspberry Pi 4',
+        icon: RaspIcon,
+        porcent: '50%',
+        color: '#BC1142',
     },
 ];

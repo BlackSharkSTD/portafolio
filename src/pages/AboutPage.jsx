@@ -2,7 +2,10 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import '../assets/styles/styles.css';
 import '../assets/styles/components.css';
-import CodeSection from '../containers/AboutPage/CodeSection';
+import CodeDialog from '../containers/AboutPage/CodeDialog';
+import DBDialog from '../containers/AboutPage/DBDialog';
+import DesignDialog from '../containers/AboutPage/DesignDialog';
+import ElectronicDialog from '../containers/AboutPage/ElectronicDialog';
 
 export default function AboutPage() {
   return (
@@ -17,8 +20,10 @@ export default function AboutPage() {
             <h1>Programación</h1>
             <br /><hr />
             <div className="spacing10" />
-            <p>Esta es una recopilación de mis conocimientos que he adquirido en el area de programación</p>
-            <CodeSection />
+            <CodeDialog />
+            <DBDialog />
+            <DesignDialog />
+            <ElectronicDialog />
           </div>
         </section>
     </div>

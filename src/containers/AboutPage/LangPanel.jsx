@@ -2,7 +2,7 @@ import React from 'react';
 import { flags } from '../../services/xconfig.jsx';
 import { ProgressBar } from '../../components/ProgressBar';
 
-export default function Lang() {
+export default function LangPanel() {
     return (
         <>
             {flags.map((e) => {

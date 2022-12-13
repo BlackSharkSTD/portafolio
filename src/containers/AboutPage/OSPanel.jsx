@@ -2,7 +2,7 @@ import React from 'react';
 import { systems } from '../../services/xconfig.jsx';
 import { ProgressBar } from '../../components/ProgressBar';
 
-export default function OSystems() {
+export default function OSPanel() {
     return (
         <>
             {systems.map((e) => {
