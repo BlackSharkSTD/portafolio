@@ -15,7 +15,7 @@ export default function CodeDialog() {
   return (
     <>
         <button id="myBtn" onClick={myFunction}>Ver</button>
-        <div id="CodeModal" className="modal">
+        <div id="CodeModal" className="modal" style={{display: 'none'}}>
             <div className="modal-content">
                 <div className="modal-header">
                     <span className="close" onClick={myFunction}>&times;</span>

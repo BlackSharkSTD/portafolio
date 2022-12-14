@@ -15,7 +15,7 @@ export default function DBDialog() {
   return (
     <>
         <button id="myBtn" onClick={myFunction}>Ver</button>
-        <div id="dbModal" className="modal">
+        <div id="dbModal" className="modal" style={{display: 'none'}}>
             <div className="modal-content">
                 <div className="modal-header">
                     <span className="close" onClick={myFunction}>&times;</span>

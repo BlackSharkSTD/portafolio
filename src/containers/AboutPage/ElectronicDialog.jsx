@@ -15,7 +15,7 @@ export default function ElectronicDialog() {
   return (
     <>
         <button id="myBtn" onClick={myFunction}>Ver</button>
-        <div id="eleModal" className="modal">
+        <div id="eleModal" className="modal" style={{display: 'none'}}>
             <div className="modal-content">
                 <div className="modal-header">
                     <span className="close" onClick={myFunction}>&times;</span>

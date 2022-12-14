@@ -265,7 +265,7 @@ li:hover{
     width: 80%;
     -webkit-animation-name: animatetop;
     border: 1px solid #171717;
-    -webkit-animation-duration: 0.3s;
+    -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
     animation-duration: 0.4s;
   }
@@ -304,4 +304,4 @@ li:hover{
     color: #fefefe;
   }
   
-  .modal-body {padding: 12px;}
+  .modal-body {padding: 15px;}
