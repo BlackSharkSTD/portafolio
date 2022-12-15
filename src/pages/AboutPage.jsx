@@ -8,6 +8,7 @@ import DesignDialog from '../containers/AboutPage/DesignDialog';
 import ElectronicDialog from '../containers/AboutPage/ElectronicDialog';
 import FlagsDialog from '../containers/AboutPage/FlagDialog';
 import OSDialog from '../containers/AboutPage/OSDialog';
+import OfficeDialog from '../containers/AboutPage/OfficeDialog';
 
 export default function AboutPage() {
   return (
@@ -22,12 +23,15 @@ export default function AboutPage() {
             <h1>Programación</h1>
             <br /><hr />
             <div className="spacing10" />
-            <CodeDialog />
-            <DBDialog />
-            <DesignDialog />
-            <ElectronicDialog />
-            <FlagsDialog />
-            <OSDialog />
+            <div className="card2 fa1">
+              <CodeDialog />
+              <DBDialog />
+              <DesignDialog />
+              <ElectronicDialog />
+              <FlagsDialog />
+              <OSDialog />
+              <OfficeDialog />
+            </div>
           </div>
         </section>
     </div>

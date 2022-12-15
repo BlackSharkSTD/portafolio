@@ -253,3 +253,83 @@ export const electronic = [
         color: '#BC1142',
     },
 ];
+
+export const office = [
+    {
+        id: 1,
+        title: 'Microsoft Office',
+        icon: 'https://res.cdn.office.net/officehub/officestartresources/image-2.svg',
+        porcent: '44%',
+        color: '#50E6FF',
+    },
+    {
+        id: 2,
+        title: 'Microsoft Word',
+        icon: 'https://upload.wikimedia.org/wikipedia/commons/f/fd/Microsoft_Office_Word_%282019%E2%80%93present%29.svg',
+        porcent: '50%',
+        color: '#2B579A',
+    },
+    {
+        id: 3,
+        title: 'Microsoft Excel',
+        icon: 'https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg',
+        porcent: '40%',
+        color: '#217346',
+    },
+    {
+        id: 4,
+        title: 'Microsoft Powerpoint',
+        icon: 'https://upload.wikimedia.org/wikipedia/commons/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg',
+        porcent: '50%',
+        color: '#B7472A',
+    },
+    {
+        id: 5,
+        title: 'Microsoft OneNote',
+        icon: 'https://upload.wikimedia.org/wikipedia/commons/1/10/Microsoft_Office_OneNote_%282019%E2%80%93present%29.svg',
+        porcent: '55%',
+        color: '#CA64EA',
+    },
+    {
+        id: 6,
+        title: 'Microsoft Outlook',
+        icon: 'https://upload.wikimedia.org/wikipedia/commons/d/df/Microsoft_Office_Outlook_%282018%E2%80%93present%29.svg',
+        porcent: '50%',
+        color: '#106EBE',
+    },
+    {
+        id: 7,
+        title: 'Microsoft Access',
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/access.svg',
+        porcent: '45%',
+        color: '#B72C3F',
+    },
+    {
+        id: 8,
+        title: 'Microsoft Publisher',
+        icon: 'https://upload.wikimedia.org/wikipedia/commons/f/fb/Microsoft_Office_Publisher_%282019-present%29.svg',
+        porcent: '30%',
+        color: '#077568',
+    },
+    {
+        id: 9,
+        title: 'Microsoft Visio',
+        icon: 'https://upload.wikimedia.org/wikipedia/commons/6/64/Microsoft_Office_Visio_%282019%29.svg',
+        porcent: '20%',
+        color: '#2368C4',
+    },
+    {
+        id: 10,
+        title: 'Microsoft OneDrive',
+        icon: 'https://upload.wikimedia.org/wikipedia/commons/3/3c/Microsoft_Office_OneDrive_%282019%E2%80%93present%29.svg',
+        porcent: '50%',
+        color: '#1565C0',
+    },
+    {
+        id: 11,
+        title: 'Microsoft Teams',
+        icon: 'https://upload.wikimedia.org/wikipedia/commons/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg',
+        porcent: '50%',
+        color: '#525ABF',
+    },
+];
