@@ -6,6 +6,8 @@ import CodeDialog from '../containers/AboutPage/CodeDialog';
 import DBDialog from '../containers/AboutPage/DBDialog';
 import DesignDialog from '../containers/AboutPage/DesignDialog';
 import ElectronicDialog from '../containers/AboutPage/ElectronicDialog';
+import FlagsDialog from '../containers/AboutPage/FlagDialog';
+import OSDialog from '../containers/AboutPage/OSDialog';
 
 export default function AboutPage() {
   return (
@@ -24,6 +26,8 @@ export default function AboutPage() {
             <DBDialog />
             <DesignDialog />
             <ElectronicDialog />
+            <FlagsDialog />
+            <OSDialog />
           </div>
         </section>
     </div>

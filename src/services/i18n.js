@@ -27,6 +27,8 @@ i18n
                 name: "Nombre",
                 message: "Mensaje",
                 newrequest: "Nueva Solicitud",
+                aboutcode: 'Estos son algunos lenguajes de programación con los que he estado trabajando en los últimos años:',
+                aboutos: '',
             },
         },
         en: {

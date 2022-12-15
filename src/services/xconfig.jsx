@@ -1,102 +1,71 @@
-import HTMLIcon from '../assets/svg/html.svg';
-import CssIcon from '../assets/svg/css.svg';
-import JSIcon from '../assets/svg/javascript.svg';
-import BashIcon from '../assets/svg/bash.svg';
-import ReactIcon from '../assets/svg/react.svg';
-import BatchIcon from '../assets/svg/console.svg';
-import NodeJSIcon from '../assets/svg/nodejs.svg';
-import JavaIcon from '../assets/svg/java.svg';
-import WindowsIcon from '../assets/svg/windows.svg';
-import WindowsSIcon from '../assets/svg/windowsS.svg';
-import DebianIcon from '../assets/svg/debian.svg';
-import FigmaIcon from '../assets/svg/figma.svg';
-import PhotoshopIcon from '../assets/svg/photoshop.svg';
-import FirebaseIcon from '../assets/svg/firebase.svg';
-import VBIcon from '../assets/svg/visualbasic.svg';
-import TSIcon from '../assets/svg/typescript.svg';
-import MYSQLIcon from '../assets/svg/mysql.svg';
-import MongoIcon from '../assets/svg/mongo.svg';
-import MSQLSERVER from '../assets/svg/msqlserver.svg';
-import AccessIcon from '../assets/svg/access.svg';
-import SQLiteIcon from '../assets/svg/sqlite.svg';
-import LinuxIcon from '../assets/svg/linux.svg';
-import AppleIcon from '../assets/svg/apple.svg';
-import ArduinoIcon from '../assets/svg/arduino.svg';
-import MaterialUIcon from '../assets/svg/material.svg'; 
-import RaspIcon from '../assets/svg/raspberry.svg';
-import AntDIcon from '../assets/svg/ant-design.svg';
-import MexicoFlag from '../assets/svg/mexico.svg';
-import UsaFlag from '../assets/svg/usa.svg';
-import ItaliaFlag from '../assets/svg/italia.svg';
-
 export const programs = [
     {
         id: 1,
         title: 'HTML',
-        icon: HTMLIcon,
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/html.svg',
         porcent: '97%',
         color: '#FF5722',
     },
     {
         id: 2,
         title: 'CCS',
-        icon: CssIcon,
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/css.svg',
         porcent: '85%',
         color: '#2196F3',
     },
     {
         id: 3,
         title: 'Javascript',
-        icon: JSIcon,
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/javascript.svg',
         porcent: '85%',
         color: '#F7DE1F',
     },
     {
         id: 4,
         title: 'NodeJS',
-        icon: NodeJSIcon,
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/nodejs.svg',
         porcent: '45%',
         color: '#82C000',
     },
     {
         id: 5,
         title: 'React',
-        icon: ReactIcon,
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/react.svg',
         porcent: '90%',
         color: '#61DAFB',
     },
     {
         id: 6,
         title: 'Typescript',
-        icon: TSIcon,
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/typescript.svg',
         porcent: '70%',
         color: '#007ACC',
     },
     {
         id: 7,
         title: 'Bash Scripting',
-        icon: BashIcon,
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/bash.svg',
         porcent: '79%',
         color: '#F2F2F2',
     },
     {
         id: 8,
         title: 'Batch',
-        icon: BatchIcon,
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/console.svg',
         porcent: '90%',
         color: '#B8C9DD',
     },
     {
         id: 9,
         title: 'Java',
-        icon: JavaIcon,
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/java.svg',
         porcent: '36%',
         color: '#F44336',
     },
     {
         id: 10,
         title: 'Visual Basic .NET',
-        icon: VBIcon,
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/visualbasic.svg',
         porcent: '73%',
         color: '#376DB7',
     },
@@ -113,28 +82,28 @@ export const systems = [
     {
         id: 1,
         title: 'Windows 7/8/8.1/10',
-        icon: WindowsIcon,
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/windows.svg',
         porcent: '88%',
         color: '#2196F3',
     },
     {
         id: 2,
         title: 'Windows Server 2016',
-        icon: WindowsSIcon,
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/windowsS.svg',
         porcent: '76%',
         color: '#00AFF0',
     },
     {
         id: 3,
         title: 'Linux/Linux Lite',
-        icon: LinuxIcon,
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/linux.svg',
         porcent: '80%',
         color: '#FFC107',
     },
     {
         id: 4,
         title: 'Debian',
-        icon: DebianIcon,
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/debian.svg',
         porcent: '80%',
         color: '#E91E63',
     },
@@ -149,13 +118,13 @@ export const systems = [
         id: 6,
         title: 'KDE Plasma',
         icon: 'https://kde.org/stuff/clipart/logo/kde-logo-blue-transparent-source.svg',
-        porcent: '90%',
+        porcent: '87%',
         color: '#1D99F3',
     },
     {
         id: 7,
         title: 'iOS 16',
-        icon: AppleIcon,
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/apple.svg',
         porcent: '40%',
         color: '#f5f5f7',
     }
@@ -172,28 +141,28 @@ export const design = [
     {
         id: 2,
         title: 'Adobe Photoshop',
-        icon: PhotoshopIcon,
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/photoshop.svg',
         porcent: '39%',
         color: '#03A9F4',
     },
     {
         id: 3,
         title: 'Figma',
-        icon: FigmaIcon,
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/figma.svg',
         porcent: '43%',
         color: '#A259FF',
     },
     {
         id: 4,
         title: 'Material UI',
-        icon: MaterialUIcon,
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/material.svg',
         porcent: '90%',
         color: '#00B0FF',
     },
     {
         id: 5,
         title: 'Ant-Design',
-        icon: AntDIcon,
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/ant-design.svg',
         porcent: '67%',
         color: '#F52231',
     },
@@ -203,42 +172,42 @@ export const database = [
     {
         id: 1,
         title: 'Microsoft SQL Server',
-        icon: MSQLSERVER,
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/msqlserver.svg',
         porcent: '85%',
         color: '#EE352C',
     },
     {
         id: 1,
         title: 'Firebase',
-        icon: FirebaseIcon,
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/firebase.svg',
         porcent: '69%',
         color: '#FFA000',
     },
     {
         id: 2,
         title: 'MySQL',
-        icon: MYSQLIcon,
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/mysql.svg',
         porcent: '44%',
         color: '#00758F',
     },
     {
         id: 3,
         title: 'MongoDB',
-        icon: MongoIcon,
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/mongo.svg',
         porcent: '65%',
         color: '#41A247',
     },
     {
         id: 4,
         title: 'SQLite',
-        icon: SQLiteIcon,
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/sqlite.svg',
         porcent: '70%',
         color: '#0F80CC',
     },
     {
         id: 5,
         title: 'Microsoft Access',
-        icon: AccessIcon,
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/access.svg',
         porcent: '35%',
         color: '#B72C3F',
     },
@@ -248,21 +217,21 @@ export const flags = [
     {
         id: 1,
         title: 'Español',
-        icon: MexicoFlag,
-        porcent: '95%',
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/mexico.svg',
+        porcent: '97%',
         color: '#2196F3',
     },
     {
         id: 2,
         title: 'English',
-        icon: UsaFlag,
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/usa.svg',
         porcent: '45%',
         color: '#2196F3',
     },
     {
         id: 1,
         title: 'Italiano',
-        icon: ItaliaFlag,
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/italia.svg',
         porcent: '10%',
         color: '#2196F3',
     },
@@ -272,14 +241,14 @@ export const electronic = [
     {
         id: 1,
         title: 'Arduino',
-        icon: ArduinoIcon,
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/arduino.svg',
         porcent: '80%',
         color: '#008184',
     },
     {
         id: 2,
         title: 'Raspberry Pi 4',
-        icon: RaspIcon,
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/raspberry.svg',
         porcent: '50%',
         color: '#BC1142',
     },

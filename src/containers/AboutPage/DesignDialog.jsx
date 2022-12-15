@@ -8,13 +8,15 @@ export default function DesignDialog() {
         var modal = document.getElementById("dsModal");
         if (modal.style.display === "none") {
             modal.style.display = "block";
+            console.clear();
         } else {
             modal.style.display = "none";
+            console.clear();
         }
     }
   return (
     <>
-        <button id="myBtn" onClick={myFunction}>Ver</button>
+        <button id="myBtn" className="btn-showi" onClick={myFunction}>Ver</button>
         <div id="dsModal" className="modal" style={{display: 'none'}}>
             <div className="modal-content">
                 <div className="modal-header">

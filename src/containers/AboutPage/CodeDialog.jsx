@@ -8,13 +8,15 @@ export default function CodeDialog() {
         var modal = document.getElementById("CodeModal");
         if (modal.style.display === "none") {
             modal.style.display = "block";
+            console.clear();
         } else {
             modal.style.display = "none";
+            console.clear();
         }
     }
   return (
     <>
-        <button id="myBtn" onClick={myFunction}>Ver</button>
+        <button id="myBtn" className="btn-showi" onClick={myFunction}>Ver</button>
         <div id="CodeModal" className="modal" style={{display: 'none'}}>
             <div className="modal-content">
                 <div className="modal-header">
@@ -29,7 +31,7 @@ export default function CodeDialog() {
                             <>
                                 <div className="spacing10" />
                                 <div className="cart" key={e.id}>
-                                    <div className="divicon" key={e.id}>
+                                    <div className="divicon">
                                         <img src={e.icon} color={e.color} />
                                     </div>
                                     <ProgressBar title={e.title} size={e.porcent} color={e.color} />
