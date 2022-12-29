@@ -333,3 +333,93 @@ export const office = [
         color: '#525ABF',
     },
 ];
+
+export const models = [
+    {
+        id: 1,
+        title: 'Blender',
+        icon: 'https://upload.wikimedia.org/wikipedia/commons/0/0c/Blender_logo_no_text.svg',
+        porcent: '30%',
+        color: '#EA7600',
+    },
+    {
+        id: 2,
+        title: 'Vroid Studio',
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/vroid.svg',
+        porcent: '80%',
+        color: '#FFE100',
+    },
+    {
+        id: 3,
+        title: 'Source Filmmaker',
+        icon: 'https://cdn2.steamgriddb.com/file/sgdb-cdn/icon/64b3ec1fdfacead70c3a9bd77d824306/32/256x256.png',
+        porcent: '69%',
+        color: '#AD9B6E',
+    },  
+    {
+        id: 4,
+        title: 'Sweet Home 3D',
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/png/sweehome.png',
+        porcent: '40%',
+        color: '#0067A6',
+    },
+    {
+        id: 5,
+        title: 'Unity',
+        icon: 'https://cdn-icons-png.flaticon.com/512/5969/5969294.png',
+        porcent: '20%',
+        color: '#4C4C4C',
+    },
+    {
+        id: 6,
+        title: 'Paint 3D',
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/paint3d.svg',
+        porcent: '25%',
+        color: '#E76B93',
+    },
+];
+
+export const videoeditor = [
+    {
+        id: 1,
+        title: 'Movavi Video Editor 2022',
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/png/movavi.png',
+        porcent: '90%',
+        color: '#87d1ff',
+    },
+    {
+        id: 2,
+        title: 'Wondershare Filmora 12',
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/svg/filmora.svg',
+        porcent: '85%',
+        color: '#55E5C5',
+    },
+    {
+        id: 3,
+        title: 'DaVinci Resolve 18',
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/png/davinci.png',
+        porcent: '20%',
+        color: '#FF5263',
+    },
+    {
+        id: 4,
+        title: 'Clipchamp',
+        icon: 'https://raw.githubusercontent.com/Rotooo/Recursos/main/png/Clipchamp_icon_2021.png',
+        porcent: '50%',
+        color: '#9059F4',
+    },
+    {
+        id: 4,
+        title: 'KDENLive',
+        icon: 'https://upload.wikimedia.org/wikipedia/commons/4/49/Breezeicons-apps-48-kdenlive.svg',
+        porcent: '10%',
+        color: '#519BCE',
+    },
+    {
+        id: 5,
+        title: 'Blender',
+        icon: 'https://upload.wikimedia.org/wikipedia/commons/0/0c/Blender_logo_no_text.svg',
+        porcent: '5%',
+        color: '#EA7600',
+    },
+];

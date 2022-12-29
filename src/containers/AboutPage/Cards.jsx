@@ -7,6 +7,8 @@ import OfficeDialog from './Dialogs/OfficeDialog';
 import OSDialog from './Dialogs/OSDialog';
 import ElectroDialog from './Dialogs/ElectronicDialog';
 import DBDialog from './Dialogs/DBDialog';
+import ModelsDialog from './Dialogs/ModelsDialog';
+import VideoDialog from './Dialogs/VideoDialog';
 
 export default function Cards() {
   return (
@@ -59,6 +61,20 @@ export default function Cards() {
           <p>Estos son algunos lenguajes de programación que he usado</p>
           <div className="spacing15" />
           <DBDialog />
+        </div>
+        <div className="card-div">
+          <h1>Modelado 3D</h1>
+          <div className="spacing15" />
+          <p>Estos son algunos lenguajes de programación que he usado</p>
+          <div className="spacing15" />
+          <ModelsDialog />
+        </div>
+        <div className="card-div">
+          <h1>Edición de video</h1>
+          <div className="spacing15" />
+          <p>Estos son algunos lenguajes de programación que he usado</p>
+          <div className="spacing15" />
+          <VideoDialog />
         </div>
     </div>
   )
