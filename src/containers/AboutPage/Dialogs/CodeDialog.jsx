@@ -24,7 +24,6 @@ export default function CodeDialog() {
                     <h2>Programación</h2>
                 </div>
                 <div className="modal-body">
-                    <p>Estos son algunos conocimiento que he adquirido en el área de la programación</p>
                     <div className="spacing5" />
                     {programs.map((e) => {
                         return(

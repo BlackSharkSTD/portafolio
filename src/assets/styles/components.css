@@ -134,15 +134,14 @@ li:hover{
 
     .card-column{
         display: block;
-        margin: 10px 5px;
-        width: 100%;
+        margin: 15px 5px;
     }
 
     .card-div{
-        background: linear-gradient(rgba(50, 50, 50, 0.7), rgba(40, 40, 40, 0.7));
-        border-radius: 10px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        display: block;
         padding: 16px;
+        margin: 10px 0px;
+        width: 100vh;
     }
 
 }
@@ -348,6 +347,16 @@ li:hover{
 
   .card-row:after{
     content: "";
-    display: table;
+    display: flex;
     clear: both;
+  }
+
+  .card-div{
+    background: linear-gradient(rgba(50, 50, 50, 0.7), rgba(40, 40, 40, 0.7));
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    border-radius: 10px;
+    margin: 10px 5px;
+    padding: 15px;
+    width: 35vh;
   }
