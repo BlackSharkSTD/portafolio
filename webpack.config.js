@@ -38,6 +38,19 @@ module.exports = {
         ],
       },
       {
+        test: /\.(glb|gltf|obj|mtl)$/,
+        use:
+        [
+            {
+                loader: 'file-loader',
+                options:
+                {
+                    outputPath: 'assets/models/'
+                }
+            }
+        ]
+      },
+      {
         test: /\.mp4$/,
         use: 'file-loader?name=videos/[name].[ext]',
       },

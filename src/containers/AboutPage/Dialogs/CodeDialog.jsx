@@ -1,11 +1,11 @@
 import React from 'react';
-import '../../assets/styles/components.css';
-import { design } from '../../services/xconfig.jsx';
-import { ProgressBar } from '../../components/ProgressBar';
+import { programs } from '../../../services/xconfig.jsx';
+import { ProgressBar } from '../../../components/ProgressBar';
+import '../../../assets/styles/components.css';
 
-export default function DesignDialog() {
+export default function CodeDialog() {
     function myFunction() {
-        var modal = document.getElementById("dsModal");
+        var modal = document.getElementById("CodeModal");
         if (modal.style.display === "none") {
             modal.style.display = "block";
             console.clear();
@@ -17,21 +17,21 @@ export default function DesignDialog() {
   return (
     <>
         <button id="myBtn" className="btn-showi" onClick={myFunction}>Ver</button>
-        <div id="dsModal" className="modal" style={{display: 'none'}}>
+        <div id="CodeModal" className="modal" style={{display: 'none'}}>
             <div className="modal-content">
                 <div className="modal-header">
                     <span className="close" onClick={myFunction}>&times;</span>
-                    <h2>Diseño UI / UX</h2>
+                    <h2>Programación</h2>
                 </div>
                 <div className="modal-body">
                     <p>Estos son algunos conocimiento que he adquirido en el área de la programación</p>
-                    <div className="spacing15" />
-                    {design.map((e) => {
+                    <div className="spacing5" />
+                    {programs.map((e) => {
                         return(
                             <>
                                 <div className="spacing10" />
-                                <div className="cart">
-                                    <div className="divicon" key={e.id}>
+                                <div className="cart" key={e.id}>
+                                    <div className="divicon">
                                         <img src={e.icon} color={e.color} />
                                     </div>
                                     <ProgressBar title={e.title} size={e.porcent} color={e.color} />

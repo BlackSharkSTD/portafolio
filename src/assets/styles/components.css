@@ -11,7 +11,7 @@ nav{
     
 nav ul{
     float: right;
-    margin: 20px 10px 0px 0px;
+    margin: 20px 10px 0px -40px;
 }
     
 nav ul li{
@@ -59,7 +59,7 @@ li:hover{
 }
   
 .icon-menu{
-    padding: 16px 5px;
+    padding: 16px 0px;
     width: 30px;
     height: 30px;
     transition: all .5s
@@ -131,6 +131,20 @@ li:hover{
     #check:checked ~ .social_btn{
         display: none;
     }
+
+    .card-column{
+        display: block;
+        margin: 10px 5px;
+        width: 100%;
+    }
+
+    .card-div{
+        background: linear-gradient(rgba(50, 50, 50, 0.7), rgba(40, 40, 40, 0.7));
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 16px;
+    }
+
 }
 
 /* Espacios de linea */
@@ -245,8 +259,8 @@ li:hover{
     box-shadow: 0px 4px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     padding: 15px;
-    width: 25vh;
-    height: 25vh;
+    width: auto;
+    height: auto;
 }
 
 /* Modal */
@@ -328,4 +342,12 @@ li:hover{
     border: 3px solid #fefefe;
     cursor: pointer;
     color: #000;
+  }
+
+  .card-row {margin: 0;}
+
+  .card-row:after{
+    content: "";
+    display: table;
+    clear: both;
   }
