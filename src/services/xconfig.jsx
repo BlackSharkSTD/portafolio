@@ -315,7 +315,7 @@ export const office = [
         id: 9,
         title: 'Microsoft Visio',
         icon: 'https://upload.wikimedia.org/wikipedia/commons/6/64/Microsoft_Office_Visio_%282019%29.svg',
-        porcent: '20%',
+        porcent: '10%',
         color: '#2368C4',
     },
     {
@@ -421,5 +421,23 @@ export const videoeditor = [
         icon: 'https://upload.wikimedia.org/wikipedia/commons/0/0c/Blender_logo_no_text.svg',
         porcent: '5%',
         color: '#EA7600',
+    },
+];
+
+export const cardsinfo = [
+    {
+        id: 1,
+        title: 'Programación',
+        description: '',
+        image: '',
+    },
+];
+
+export const security = [
+    {
+        id: 1,
+        title: '',
+        description: '',
+        image: '',
     },
 ];
