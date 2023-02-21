@@ -12,4 +12,3 @@ export const ProgressBar = ({size, color, title}) => {
     </div>
   );
 };
-
