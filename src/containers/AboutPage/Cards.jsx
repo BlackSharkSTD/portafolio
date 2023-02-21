@@ -21,18 +21,11 @@ export default function Cards() {
           <CodeDialog />
         </div>
         <div className="card-div">
-          <h1>Diseño</h1>
+          <h1>Base de Datos</h1>
           <div className="spacing15" />
           <p>Estos son algunos lenguajes de programación que he usado</p>
           <div className="spacing15" />
-          <DesignDialog />
-        </div>
-        <div className="card-div">
-          <h1>Sistemas Operativos</h1>
-          <div className="spacing15" />
-          <p>Estos son algunos lenguajes de programación que he usado</p>
-          <div className="spacing15" />
-          <OSDialog />
+          <DBDialog />
         </div>
         <div className="card-div">
           <h1>Office</h1>
@@ -42,25 +35,11 @@ export default function Cards() {
           <OfficeDialog />
         </div>
         <div className="card-div">
-          <h1>Idiomas</h1>
+          <h1>Diseño</h1>
           <div className="spacing15" />
           <p>Estos son algunos lenguajes de programación que he usado</p>
           <div className="spacing15" />
-          <FlagDialog />
-        </div>
-        <div className="card-div">
-          <h1>Electronica</h1>
-          <div className="spacing15" />
-          <p>Estos son algunos lenguajes de programación que he usado</p>
-          <div className="spacing15" />
-          <ElectroDialog />
-        </div>
-        <div className="card-div">
-          <h1>Base de Datos</h1>
-          <div className="spacing15" />
-          <p>Estos son algunos lenguajes de programación que he usado</p>
-          <div className="spacing15" />
-          <DBDialog />
+          <DesignDialog />
         </div>
         <div className="card-div">
           <h1>Modelado 3D</h1>
@@ -76,6 +55,28 @@ export default function Cards() {
           <div className="spacing15" />
           <VideoDialog />
         </div>
+        <div className="card-div">
+          <h1>Sistemas Operativos</h1>
+          <div className="spacing15" />
+          <p>Estos son algunos lenguajes de programación que he usado</p>
+          <div className="spacing15" />
+          <OSDialog />
+        </div>
+        <div className="card-div">
+          <h1>Electronica</h1>
+          <div className="spacing15" />
+          <p>Estos son algunos lenguajes de programación que he usado</p>
+          <div className="spacing15" />
+          <ElectroDialog />
+        </div>
+        <div className="card-div">
+          <h1>Idiomas</h1>
+          <div className="spacing15" />
+          <p>Estos son algunos lenguajes de programación que he usado</p>
+          <div className="spacing15" />
+          <FlagDialog />
+        </div>
     </div>
   )
 }
+

@@ -24,8 +24,6 @@ export default function DesignDialog() {
                     <h2>Diseño UI / UX</h2>
                 </div>
                 <div className="modal-body">
-                    <p>Estos son algunos conocimiento que he adquirido en el área de la programación</p>
-                    <div className="spacing15" />
                     {design.map((e) => {
                         return(
                             <>
@@ -44,4 +42,4 @@ export default function DesignDialog() {
         </div>
     </>
   )
-}
+  

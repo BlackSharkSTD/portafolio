@@ -24,8 +24,6 @@ export default function OfficeDialog() {
                     <h2>Paqueteria de Office</h2>
                 </div>
                 <div className="modal-body">
-                    <p>Estos son algunos conocimiento que he adquirido en el área de la programación</p>
-                    <div className="spacing5" />
                     {office.map((e) => {
                         return(
                             <>
