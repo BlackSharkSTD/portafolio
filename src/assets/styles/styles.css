@@ -4,8 +4,8 @@
 }
 
 body{
-    background-color: #1d1d1d;
-    color: #fff;
+    background-color: #f0f0f0;
+    color: #000;
     margin: 0;
 }
 
@@ -29,17 +29,17 @@ section{
 }
   
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #FF9900;
+    background-color: #d82525;
 }
 
 ::-moz-selection {
     color: #fff;
-    background: #FF9900;
+    background: #d82525;
     border-radius: 5px;
 }
   
 ::selection {
     color: #fff;
-    background: #FF9900;
+    background: #d82525;
     border-radius: 5px
 }
